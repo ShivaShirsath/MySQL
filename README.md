@@ -26,5 +26,6 @@
     chmod +x MySQL/install-refreshSQL
     bash MySQL/install-refreshSQL
     cd $PWDx
+    echo "Enter your Sudo password for login"
     ```
     
