@@ -10,22 +10,16 @@
   sudo apt install lamp-server^
   ```
   
-  + **Run**
-    ```bash
-    # user = 'root'
-    # password = ''
-    mysql -u root -y
-    ```
-    
-    - if error ( try this )   
-    ```bash
-    PWDx=$PWD
-    sudo apt install git -y
-    cd ~
-    git clone https://github.com/ShivaShirsath/MySQL.git
-    chmod +x MySQL/install-refreshSQL
-    bash MySQL/install-refreshSQL
-    cd $PWDx
-    echo "Enter your Sudo password for login"
-    ```
-    
+ + **Install using Script ( easy way )*
+ ```bash
+ PWDx=$PWD
+ sudo apt install git -y
+ cd ~
+ git clone https://github.com/ShivaShirsath/MySQL.git
+ sudo chmod +x MySQL/install
+ sudo bash MySQL/install
+ cd $PWDx
+ echo "Enter your Sudo password for login"
+ ```
+
+
