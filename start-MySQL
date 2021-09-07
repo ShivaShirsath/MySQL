@@ -6,6 +6,6 @@ sudo chown mysql:mysql mysqld.bc/
 sudo service mysql stop
 sudo cp mysqld.bc/ mysqld -rf
 sudo chown mysql:mysql mysqld -R
-sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+sudo /usr/sbin/mysqld &
 cd $PWDx
-mysql -u root -p
+sudo mysql -u root -p
