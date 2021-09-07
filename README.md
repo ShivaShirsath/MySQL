@@ -15,6 +15,7 @@
   echo ""
   ```
 + **Start MySQL Server with CLI**
+
   `start-MySQL` Or `sudo mysql -u root -p`
 + **Stop Server**
 
