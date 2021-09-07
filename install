@@ -1,0 +1,12 @@
+PWDx=$PWD
+
+sudo apt install lamp-server^ -y
+
+sudo cp -rf ~/MySQL/start-MySQL /usr/local/bin/start-MySQL
+sudo chmod +x /usr/local/bin/start-MySQL
+
+echo "Use start-MySQL command for start MySQL"
+echo "Use quit / exit command for stop MySQL"
+echo "If server get HANG then use `Ctrl+C` for terminate server"
+
+cd $PWD
