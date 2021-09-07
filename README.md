@@ -15,10 +15,9 @@
   echo ""
   ```
 + **Start MySQL Server with CLI**
-  ```bash
-  start-MySQL
-  ```
+  `start-MySQL` Or `sudo mysql -u root -p`
 + **Stop Server**
+
   `quit` Or `exit` Or `\q`
  
 
