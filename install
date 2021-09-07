@@ -4,9 +4,12 @@ sudo apt install lamp-server^ -y
 
 cp -rf ~/MySQL/start-MySQL /usr/local/bin/start-MySQL
 chmod +x /usr/local/bin/start-MySQL
-
+clear
+echo ""
 echo "Use start-MySQL command for start MySQL"
+echo ""
 echo "Use quit / exit command for stop MySQL"
+echo ""
 echo "If server get HANG then use Ctrl+C for terminate server"
-
+echo ""
 cd $PWD
