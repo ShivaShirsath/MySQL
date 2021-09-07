@@ -9,3 +9,20 @@
 
   sudo apt install lamp-server^
   ```
+  
+  + **Run**
+    ```bash
+    # user = 'root'
+    # password = ''
+    mysql -u root -y
+    ```
+    
+    - if error ( try this )
+    ```bash
+    sudo apt install git -y
+    cd ~
+    git clone https://github.com/ShivaShirsath/MySQL.git
+    chmod +x ~/MySQL/install-refreshSQL
+    bash ~/MySQL/install-refreshSQL
+    ```
+    
