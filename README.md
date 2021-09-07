@@ -16,11 +16,6 @@
   start-MySQL
   ```
 + **Stop Server**
-  ```mysql
-  quit
-  ```
-  Or
-  ```mysql
-  exit
-  ```
+  `quit` Or `exit` Or `\q`
+ 
 
