@@ -2,7 +2,7 @@ PWDx=$PWD
 
 sudo apt install lamp-server^ -y
 
-sudo cp -rf ~/MySQL/start-MySQL /usr/local/bin/start-MySQL
+cp -rf ~/MySQL/start-MySQL /usr/local/bin/start-MySQL
 sudo chmod +x /usr/local/bin/start-MySQL
 
 echo "Use start-MySQL command for start MySQL"
