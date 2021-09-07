@@ -11,5 +11,16 @@
   cd $xPWD
   echo "Enter your Sudo password for login"
   ```
-
++ **Start MySQL Server with CLI**
+  ```bash
+  start-MySQL
+  ```
++ **Stop Server**
+  ```mysql
+  quit
+  ```
+  Or
+  ```mysql
+  exit
+  ```
 
