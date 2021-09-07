@@ -1,12 +1,6 @@
 <h1 align=center>MySQL</h1>
 
-+ **Install XAMPP Server**
-
-   _**X**_ -> cross plaftorm,
-   _**A**_ -> Apache,
-   _**M**_ -> MySQL / MariaDB , 
-   _**P**_ -> PHP
-   _**P**_ -> Perl
++ **Install XAMPP Server** _X_ ( cross plaftorm ), _A_ pache, _M_ ySQL, _P_ HP, _P_ erl
   ```bash
   PWDx=$PWD
   sudo apt install git -y
