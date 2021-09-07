@@ -12,4 +12,5 @@ echo "Use quit / exit command for stop MySQL"
 echo ""
 echo "If server get HANG then use Ctrl+C for terminate server"
 echo ""
+echo ""
 cd $PWD
