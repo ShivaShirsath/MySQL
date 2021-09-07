@@ -17,7 +17,7 @@
     mysql -u root -y
     ```
     
-    - if error ( try this )
+    - if error ( try this )   
     ```bash
     sudo apt install git -y
     cd ~
