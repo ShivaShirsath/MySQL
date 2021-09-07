@@ -1,0 +1,7 @@
+
+PWDx=$PWD
+cd ~
+cp -rf ~/MySQL/refreshSQL /usr/local/bin/refreshSQL
+chmod +x /usr/local/bin/refreshSQL
+cd $PWDx
+echo "Done !"
