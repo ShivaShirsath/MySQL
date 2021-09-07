@@ -19,10 +19,12 @@
     
     - if error ( try this )   
     ```bash
+    PWDx=$PWD
     sudo apt install git -y
     cd ~
     git clone https://github.com/ShivaShirsath/MySQL.git
-    chmod +x ~/MySQL/install-refreshSQL
-    bash ~/MySQL/install-refreshSQL
+    chmod +x MySQL/install-refreshSQL
+    bash MySQL/install-refreshSQL
+    cd $PWDx
     ```
     
