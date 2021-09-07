@@ -12,5 +12,8 @@ echo "Use quit / exit command for stop MySQL"
 echo ""
 echo "If server get HANG then use Ctrl+C for terminate server"
 echo ""
+echo "Enter your Sudo password for login"
+echo ""
+echo "Use start-MySQL command carefully ( not working -> retry )"
 echo ""
 cd $PWD
