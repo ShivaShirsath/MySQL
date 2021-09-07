@@ -7,7 +7,7 @@
   cd ~
   git clone https://github.com/ShivaShirsath/MySQL.git
   sudo chmod +x MySQL/install 
-  sudo bash MySQL/install
+  bash MySQL/install
   cd $xPWD
   echo "Enter your Sudo password for login"
   ```
