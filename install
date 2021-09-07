@@ -7,6 +7,6 @@ sudo chmod +x /usr/local/bin/start-MySQL
 
 echo "Use start-MySQL command for start MySQL"
 echo "Use quit / exit command for stop MySQL"
-echo "If server get HANG then use `Ctrl+C` for terminate server"
+echo "If server get HANG then use Ctrl+C for terminate server"
 
 cd $PWD
