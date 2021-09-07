@@ -16,7 +16,9 @@
   ```
 + **Start MySQL Server with CLI**
 
-  `start-MySQL` Or `sudo mysql -u root -p`
+  ```bash
+  start-MySQL
+  ```
 + **Stop Server**
 
   `quit` Or `exit` Or `\q`
