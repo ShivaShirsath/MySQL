@@ -10,6 +10,9 @@
   bash MySQL/install
   cd $xPWD
   echo "Enter your Sudo password for login"
+  echo ""
+  echo "Use start-MySQL command carefully ( not working -> retry )"
+  echo ""
   ```
 + **Start MySQL Server with CLI**
   ```bash
