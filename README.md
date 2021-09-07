@@ -2,11 +2,11 @@
 
 + **Install XAMPP Server**
 
-  _**X**_ -> cross plaftorm,
-  _**A**_ -> Apache,
-  _**M**_ -> MySQL / MariaDB , 
-  _**P**_ -> PHP
-  _**P**_ -> Perl
+   _**X**_ -> cross plaftorm,
+   _**A**_ -> Apache,
+   _**M**_ -> MySQL / MariaDB , 
+   _**P**_ -> PHP
+   _**P**_ -> Perl
   ```bash
   PWDx=$PWD
   sudo apt install git -y
