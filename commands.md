@@ -3,7 +3,7 @@
 + At NULL database level
   - Show All DataBases
   ```mysql
-  SHOW databaseS ;
+  SHOW databases ;
   ```
   - Create Database
   ```mysql
