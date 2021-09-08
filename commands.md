@@ -16,10 +16,15 @@
   - Create Table
     ```mysql
     CREATE TABLE database_name . table_name (
-      column_name data_type(size) CONSTANTS 
+      id int (3) NOT NULL AUTO_INCREMENT 
       /*
        * specify multiple columns
        * sheparate columns using ‘,’ 
+       *
+       * id = column name
+       * int = data_type 
+       * 3 = size
+       * NOT NULL & AUTO_INCREMENT = CONSTANTS
        *
        */
     ) ;
