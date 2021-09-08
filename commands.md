@@ -30,3 +30,16 @@
        */
     ) ;
     ```
+  - Insert into Table
+    ```mysql
+    INSERT INTO database_name . table_name
+    ( column_name, …, column_names  ) values
+    (     data, …, datas    )
+      /*
+       * specify multiple values
+       * sheparate values using ‘,’
+       *
+       */
+    ;
+    ```
+  - Update 
