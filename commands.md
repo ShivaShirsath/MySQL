@@ -16,9 +16,9 @@
   - Create Table
     ```mysql
     CREATE TABLE database_name . table_name (
-      id int (3) NOT NULL
-      /*
-       * [ column_name data_type ( size ) constants ]
+          id         int    (  3   )   NOT NULL  /* ,
+      column_name data_type ( size )  constants 
+       *
        * specify multiple columns
        * sheparate columns using ‘,’ 
        *
@@ -33,12 +33,13 @@
   - Insert into Table
     ```mysql
     INSERT INTO database_name . table_name
-    ( column_name, …, column_names  ) values
-    (     data, …, datas    )
-      /*
-       * specify multiple values
-       * sheparate values using ‘,’
-       *
+    ( id  /* , column_names */ ) values
+    ( 1   /* ,     datas    */ ) /* , 
+    ( #1     ,  #2, #3,  …  #N ) 
+       
+        specify multiple values
+        sheparate values using ‘,’
+       
        */
     ;
     ```
