@@ -1,6 +1,6 @@
 <h1 align=center>MySQL</h1>
 
-+ **Install XAMPP Server** - X ( cross plaftorm ), Apache, MySQL, PHP, Perl
++ **Install XAMPP Server**
   ```bash
   xPWD=$PWD && sudo apt install git -y && cd ~ && git clone https://github.com/ShivaShirsath/MySQL.git && sudo chmod +x MySQL/install && bash MySQL/install && cd $xPWD 
   ```
@@ -12,5 +12,7 @@
 + **Stop Server**
 
   `quit` Or `exit` Or `\q`
+
++ [Commands.md](commands.md)
  
 
