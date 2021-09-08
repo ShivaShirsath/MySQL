@@ -3,11 +3,11 @@
 + At NULL database level
   - Show All DataBases
   ```mysql
-  SHOW DataBaseS ;
+  SHOW databaseS ;
   ```
   - Create Database
   ```mysql
-  CREATE DATABASE database_ ;
+  CREATE DATABASE database_name ;
   ```
   - Show Currunt Database
   ```mysql
