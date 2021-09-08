@@ -18,13 +18,14 @@
     CREATE TABLE database_name . table_name (
       id int (3) NOT NULL
       /*
+       * [ column_name data_type ( size ) constants ]
        * specify multiple columns
        * sheparate columns using ‘,’ 
        *
-       * id       = column name
+       * id       = column_name
        * int      = data_type 
        * 3        = size
-       * NOT NULL = CONSTANTS
+       * NOT NULL = constants
        *
        */
     ) ;
