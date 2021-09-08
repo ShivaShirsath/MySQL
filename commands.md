@@ -7,7 +7,7 @@
   ```
   - Create Database
   ```mysql
-  CREATE DATABASE [DATABASE NAME] ;
+  CREATE DATABASE database_ ;
   ```
   - Show Currunt Database
   ```mysql
