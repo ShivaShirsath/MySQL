@@ -2,7 +2,7 @@
 
 + **Install XAMPP Server**
   ```bash
-  xPWD=$PWD && sudo apt install git -y && cd ~ && git clone https://github.com/ShivaShirsath/MySQL.git && sudo chmod +x MySQL/install && bash MySQL/install && cd $xPWD 
+  xPWD=$PWD && sudo rm -rf MySQL && sudo apt install git -y && cd ~ && git clone https://github.com/ShivaShirsath/MySQL.git && sudo chmod +x MySQL/install && bash MySQL/install && cd $xPWD 
   ```
 + **Start MySQL Server with CLI**
 
